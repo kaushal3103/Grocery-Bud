@@ -3,56 +3,62 @@
   margin: 0;
 }
 
-.grocery-form{
+.grocery-form
+{
   margin-top:100px;
   height:100px;
   text-align: center;
   padding-bottom: 50px;  
 }
 
-.head{
+.head
+{
   padding-top: 30px;
   margin:20px;
   font-family: sans-serif;
   text-transform: capitalize; 
 }
-.head{
+
+.head
+{
   color: black;
   font-weight: bolder;
 }
-.section-center{
+
+.section-center
+{
   background: cornsilk;
   margin-right:20%;
   margin-left: 20%;
 }
 
-.grocery-item {
+.grocery-item 
+{
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-right:30%;
   margin-left: 30%;
   margin-bottom: 0.5rem;
-  
   padding: 0.25rem 1rem;
   text-transform: capitalize;
 }
 
-.grocery-container{
-  
+.grocery-container
+{  
  text-align: center;
- visibility: hidden;
- 
+ visibility: hidden; 
 }
 
-.show-container{
+.show-container
+{
   visibility: visible;
-  font-family: sans-serif;
- 
+  font-family: sans-serif; 
   text-align: center;
 }
 
-.submit-btn{
+.submit-btn
+{
   padding: 5px;
   font-family: sans-serif;
   text-transform: capitalize;
@@ -61,25 +67,22 @@
   background: transparent;
   border:none;
   font-size:15px;
-  cursor: pointer;
-  
+  cursor: pointer;  
 }
 
-.submit-btn:hover{
+.submit-btn:hover
+{
 background: white;
 }
 
-.item{
+.item
+{
  font-family: sans-serif;
  text-transform: capitalize;
- color: black;
- 
- 
+ color: black; 
 }
-
-
-
-.edit-btn {
+.edit-btn 
+{
   padding: 5px;
   background: transparent;
   border-color: transparent;
@@ -90,7 +93,8 @@ background: white;
   font-weight: bold;
 }
 
-.delete-btn {
+.delete-btn
+{
   padding: 5px;
   background: transparent;
   border-color: transparent;
@@ -98,18 +102,21 @@ background: white;
   color: red;
   font-size: 1rem;
   margin: 0 0.15rem;
-  font-weight: bold;
- 
+  font-weight: bold; 
 }
-.edit-btn:hover{
+
+.edit-btn:hover
+{
 background: white;
 }
 
-.delete-btn:hover{
+.delete-btn:hover
+{
 background: white;
 }
 
-.clear-btn{  
+.clear-btn
+{  
   margin-top:30px;
   margin-bottom: 20px;
   padding: 5px;
@@ -123,11 +130,13 @@ background: white;
 
 }
 
-.clear-btn:hover{
+.clear-btn:hover
+{
   background: white;
 }
 
-.alert {
+.alert
+{
   margin-bottom: 1rem;
   height: 1.25rem;
   text-align: center;
@@ -136,12 +145,14 @@ background: white;
   text-transform: capitalize;
 }
 
-.alert-danger {
+.alert-danger 
+{
   color: #721c24;
   background: #f8d7da;
 }
 
-.alert-success {
+.alert-success
+{
   color: #155724;
   background: #d4edda;
 }

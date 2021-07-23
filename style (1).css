@@ -1,0 +1,148 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.grocery-form{
+  margin-top:100px;
+  height:100px;
+  text-align: center;
+  padding-bottom: 50px;  
+}
+
+.head{
+  padding-top: 30px;
+  margin:20px;
+  font-family: sans-serif;
+  text-transform: capitalize; 
+}
+.head{
+  color: black;
+  font-weight: bolder;
+}
+.section-center{
+  background: cornsilk;
+  margin-right:20%;
+  margin-left: 20%;
+}
+
+.grocery-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right:30%;
+  margin-left: 30%;
+  margin-bottom: 0.5rem;
+  
+  padding: 0.25rem 1rem;
+  text-transform: capitalize;
+}
+
+.grocery-container{
+  
+ text-align: center;
+ visibility: hidden;
+ 
+}
+
+.show-container{
+  visibility: visible;
+  font-family: sans-serif;
+ 
+  text-align: center;
+}
+
+.submit-btn{
+  padding: 5px;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  color: black;
+  font-weight: bold;
+  background: transparent;
+  border:none;
+  font-size:15px;
+  cursor: pointer;
+  
+}
+
+.submit-btn:hover{
+background: white;
+}
+
+.item{
+ font-family: sans-serif;
+ text-transform: capitalize;
+ color: black;
+ 
+ 
+}
+
+
+
+.edit-btn {
+  padding: 5px;
+  background: transparent;
+  border-color: transparent;
+  color: blue;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0 0.15rem;
+  font-weight: bold;
+}
+
+.delete-btn {
+  padding: 5px;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: red;
+  font-size: 1rem;
+  margin: 0 0.15rem;
+  font-weight: bold;
+ 
+}
+.edit-btn:hover{
+background: white;
+}
+
+.delete-btn:hover{
+background: white;
+}
+
+.clear-btn{  
+  margin-top:30px;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  border:none;
+  font-size:15px;
+  cursor: pointer;
+  background: transparent;
+
+}
+
+.clear-btn:hover{
+  background: white;
+}
+
+.alert {
+  margin-bottom: 1rem;
+  height: 1.25rem;
+  text-align: center;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+}
+
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+}
+
+.alert-success {
+  color: #155724;
+  background: #d4edda;
+}
+
